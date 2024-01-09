@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loop</title>
+</head>
+<body>
+
+    <!-- types of Loop
+    1. for
+    2. for-of
+    3. for-in
+    4. for-each
+    5. while
+    6. Do-while -->
+<!-- 
+    Loop is the block of code which exceute number of time.
+    It avoid to run the same code again and again.
+    use of for loop is more because all the three condtition satisfy in one syntax.
+
+    syntax of for Loop
+
+    for (expression 1; expression 2; expression 3)
+    {
+        statement
+    }
+    expression 1: set a variable
+    expression 2: define the condition for the Loop
+    expression 3: Increment/Decrement the value -->
+    <script>
+    //   for(var x=0; x<=10; x++)
+    //   {
+    //     console.log(x)
+    //   }
+
+    //   for(var x=100; x>=1; x--)
+    //   {
+    //     console.log(x)
+    //   }
+    //   for(var x=1; x<=10; x++)
+    //   {
+    //     console.log(x*10)
+    //   }
+
+    // for(x=1; x<=100; x++)
+    // {
+    //     document.write('Aviyansh');
+    //     document.write('<br>')
+    // }
+
+    // for(var x=30; x<=50; x++)
+    // {
+    //     if(x%2==1)
+    // {
+    //     console.log(x)
+    // }
+    // }
+
+    // for(x=1000; x>0; x--)
+    // {
+    //     if(x<=101 || x>200 && x<=601 || x>700)
+    //     {
+    //         console.log(x)
+    //     }
+
+    // }
+
+    let n=5;
+    let str="";
+    for (let i=1; i<=n; i++){
+        for(let j=0; j<i; j++){
+            str+="*"
+        }
+        str +="\n";
+    }
+    console.log(str);
+    
+    </script>
+</body>
+</html>
